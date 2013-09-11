@@ -185,6 +185,6 @@ if __name__ == "__main__":
     if False == gitted:
         show_error("Error: None of those sub directories had a .git file.\n")
 
-    print messages
+    print (messages)
       
     raw_input("Press Enter to Exit")
